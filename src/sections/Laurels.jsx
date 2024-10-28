@@ -1,7 +1,7 @@
 import React from "react";
 
 const Laurels = () => {
-  return <div>Laurels</div>;
+  return <section>Laurels</section>;
 };
 
 export default Laurels;

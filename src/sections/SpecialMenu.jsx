@@ -1,7 +1,7 @@
 import React from "react";
 
 const SpecialMenu = () => {
-  return <div>SpecialMenu</div>;
+  return <section>SpecialMenu</section>;
 };
 
 export default SpecialMenu;

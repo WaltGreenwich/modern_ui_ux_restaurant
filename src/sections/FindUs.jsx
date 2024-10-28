@@ -1,7 +1,7 @@
 import React from "react";
 
 const FindUs = () => {
-  return <div>FindUs</div>;
+  return <section>FindUs</section>;
 };
 
 export default FindUs;

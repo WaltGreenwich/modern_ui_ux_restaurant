@@ -4,41 +4,41 @@ import {
   FindUs,
   Footer,
   Gallery,
-  Header,
+  Hero,
   Intro,
   Laurels,
   SpecialMenu,
-} from "./sections";
-import Navbar from "./components/Navbar";
+} from "./sections/index";
+import Nav from "./components/Nav";
 
 const App = () => (
-  <main>
-    <Navbar />
-    <section>
-      <Header />
+  <main className="relative">
+    <Nav />
+    <section className="padding-y">
+      <Hero />
     </section>
-    <section>
+    <section className="padding">
       <AboutUs />
     </section>
-    <section>
+    <section className="padding">
       <SpecialMenu />
     </section>
-    <section>
+    <section className="padding">
       <Chef />
     </section>
-    <section>
+    <section className="padding">
       <Intro />
     </section>
-    <section>
+    <section className="padding">
       <Laurels />
     </section>
-    <section>
+    <section className="padding">
       <Gallery />
     </section>
-    <section>
+    <section className="padding">
       <FindUs />
     </section>
-    <section>
+    <section className="padding">
       <Footer />
     </section>
   </main>

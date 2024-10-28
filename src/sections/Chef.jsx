@@ -1,7 +1,7 @@
 import React from "react";
 
 const Chef = () => {
-  return <div>Chef</div>;
+  return <section>Chef</section>;
 };
 
 export default Chef;
