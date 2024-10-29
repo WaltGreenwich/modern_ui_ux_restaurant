@@ -27,6 +27,9 @@ export default {
         base: ["Cormorant Upright", "serif"],
         alt: ["Open Sans", "sans-serif"],
       },
+      screens: {
+        ultra: "2000px",
+      },
     },
   },
   plugins: [],
