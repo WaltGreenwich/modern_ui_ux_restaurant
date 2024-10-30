@@ -30,6 +30,9 @@ export default {
       screens: {
         ultra: "2000px",
       },
+      letterSpacing: {
+        custom: "0.04rem",
+      },
     },
   },
   plugins: [],
