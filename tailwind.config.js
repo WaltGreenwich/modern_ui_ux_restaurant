@@ -30,6 +30,8 @@ export default {
       },
       screens: {
         ultra: "2000px",
+        wide: "1440px",
+        xs: "360px",
       },
       letterSpacing: {
         custom: "0.04rem",

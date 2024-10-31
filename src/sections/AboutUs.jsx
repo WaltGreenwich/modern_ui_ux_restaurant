@@ -15,7 +15,7 @@ const AboutUs = () => {
       <div className="relative z-10 flex flex-col md:flex-row flex-1 items-center justify-center max-w-screen-xl">
         {/* Bloque de "About Us" */}
         <div className="flex flex-col text-end">
-          <h1 className="text-5xl font-base font-bold text-golden tracking-custom">
+          <h1 className="text-5xl xs:text-4xl font-base font-bold text-golden tracking-custom">
             About Us
           </h1>
           <img src={images.spoon} alt="spoon" className="w-12 ml-auto my-4" />
@@ -43,7 +43,7 @@ const AboutUs = () => {
 
         {/* Bloque de "Our History" */}
         <div className="flex flex-col text-start">
-          <h1 className="text-5xl font-base font-bold text-golden tracking-custom">
+          <h1 className="text-5xl xs:text-4xl font-base font-bold text-golden tracking-custom">
             Our History
           </h1>
           <img src={images.spoon} alt="spoon" className="w-12 ml-0 my-4" />
