@@ -4,11 +4,11 @@ import { images, data } from "../constants";
 
 const SpecialMenu = () => {
   return (
-    <section id="menu" className="bg-black min-h-screen px-8">
+    <section id="menu" className="bg-black min-h-screen py-16 px-8 pb-16">
       <div className="relative flex flex-col items-center justify-center">
-        <div className="text-white text-2xl text-center mt-8">
+        <div className="text-white text-2xl text-center">
           <SubHeading title="Menu that fits you palatte" isCentered={true} />
-          <h1 className="text-8xl xs:text-4xl font-base font-bold text-golden tracking-custom mb-8">
+          <h1 className="text-5xl xs:text-4xl font-base font-bold text-golden tracking-custom mb-8">
             Today’s Special
           </h1>
         </div>
@@ -30,7 +30,7 @@ const SpecialMenu = () => {
             </div>
           </div>
 
-          <div className="w-[410px] my-0 mx-8">
+          <div className="w-[410px] my-4 mx-8">
             <img src={images.menu} alt="menu img" />
           </div>
 
