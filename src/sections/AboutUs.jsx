@@ -37,7 +37,7 @@ const AboutUs = () => {
           <img
             src={images.knife}
             alt="knife"
-            className="my-8 h-[910px] max-w-40"
+            className="my-16 h-[910px] max-w-40"
           />
         </div>
 

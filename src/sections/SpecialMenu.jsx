@@ -30,7 +30,7 @@ const SpecialMenu = () => {
             </div>
           </div>
 
-          <div className="w-[410px] my-4 mx-8">
+          <div className="md:w-[410px] xs:w-auto xs:mx-4 my-16 lg:mx-8 ">
             <img src={images.menu} alt="menu img" />
           </div>
 
