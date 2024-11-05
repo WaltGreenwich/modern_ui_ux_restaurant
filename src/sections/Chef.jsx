@@ -4,16 +4,16 @@ import SubHeading from "../components/SubHeading";
 const Chef = () => {
   return (
     <section className="bg-[url('src/assets/bg.png')] bg-cover bg-fixed min-h-screen py-16 lg:px-16 xs:px-8 flex items-center justify-center">
-      <div className="flex flex-col md:flex-row items-center md:space-x-12 max-w-7xl mx-auto px-6 md:px-12">
-        <div className=" flex justify-center md:justify-end mr-12 mb-8 md:mb-0">
+      <div className="flex flex-col lg:flex-row items-center md:space-x-8 max-w-5xl md:max-w-6xl lg:max-w-7xl mx-auto px-6 md:px-8">
+        <div className="w-full lg:w-1/2 flex  justify-center xs:items-center md:justify-end mb-8 md:mb-8 xs:mx-8 lg:mr-24">
           <img
             src={images.chef}
             alt="chef"
-            className="max-w-100 xs:items-center"
+            className="w-[80%] xs:w-[100%] max-w-xs md:max-w-full mx-auto"
           />
         </div>
 
-        <div className="w-full md:w-1/2 text-white text-lg md:text-2xl space-y-4">
+        <div className="w-full lg:w-1/2 text-white text-lg md:text-2xl space-y-4 xs:mt-16 mx-auto">
           <SubHeading title="Chef’s Word" isCentered={false} />
           <h1 className="lg:text-5xl capitalize font-base font-bold text-golden tracking-custom xs:text-4xl mb-8">
             What we believe in
