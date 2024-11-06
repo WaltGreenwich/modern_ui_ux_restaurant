@@ -51,3 +51,12 @@
     @apply sm:pb-24 pb-12;
   }
 }
+
+/* Estilos para ocultar barras de desplazamiento */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE y Edge */
+  scrollbar-width: none; /* Firefox */
+}
