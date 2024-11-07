@@ -15,7 +15,7 @@ const SpecialMenu = () => {
 
         <div className="w-full flex flex-col items-start sm:items-center justify-center lg:flex-row my-8 mx-0">
           <div className="flex flex-1 flex-col max-w-[400px] w-full h-[596px] gap-10">
-            <p className="text-center items-center font-base text-white text-4xl font-semibold tracking-custom">
+            <p className="text-center items-center font-base font-semibold text-white text-3.5xl tracking-custom">
               Wine & Beer
             </p>
             <div>
@@ -35,7 +35,7 @@ const SpecialMenu = () => {
           </div>
 
           <div className="flex flex-1 flex-col max-w-[400px] w-full h-[596px] gap-10">
-            <p className="text-center items-center font-base text-white text-4xl font-semibold tracking-custom">
+            <p className="text-center items-center font-base text-white text-3.5xl font-semibold tracking-custom">
               Cocktails
             </p>
             <div>

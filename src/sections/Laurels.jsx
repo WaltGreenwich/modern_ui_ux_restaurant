@@ -24,23 +24,21 @@ const Laurels = () => {
       className="bg-[url('src/assets/bg.png')] bg-cover bg-fixed min-h-screen py-16 lg:px-16 xs:px-8 flex items-center justify-center"
     >
       <div className="flex lg:flex-row xs:flex-col max-w-7xl w-full px-6 justify-between items-center space-y-8 lg:space-y-0">
-        {/* Contenedor de las tarjetas de premios */}
         <div className="flex flex-col items-center lg:items-start lg:w-1/2">
           <div className="text-white mb-8">
             <SubHeading title="Awards & recognition" />
-            <h1 className="font-base font-bold text-golden tracking-custom text-5xl">
+            <h1 className="font-base font-bold text-golden tracking-custom md:text-5xl xs:text-4xl">
               Our Laurels
             </h1>
           </div>
           <div className="grid xs:grid-cols-1 sm:grid-cols-2 gap-8">
             {" "}
-            {/* Cuadrícula 2x2 con espacio entre celdas */}
             {data.awards.map((award) => (
               <AwardCard award={award} key={award.title} />
             ))}
           </div>
         </div>
-        {/* Contenedor de la imagen */}
+
         <div className="flex items-center justify-center lg:w-1/2">
           <img
             src={images.laurels}

@@ -5,7 +5,7 @@ const Newsletter = () => {
     <div className="flex flex-col text-white items-center sm:border-2 border-golden py-8 mt-16 bg-black mx-4 sm:mx-8 lg:mx-16">
       <div className="text-center mx-8">
         <SubHeading title="Newsletter" isCentered={true} />
-        <h1 className="font-base font-semibold tracking-custom text-golden xs:text-4xl md:text-5xl mb-2">
+        <h1 className="font-base font-semibold tracking-custom text-golden xs:text-3.5xl md:text-5xl mb-2">
           Subscribe To Our Newsletter
         </h1>
         <p className="mb-12">And never miss latest Updates!</p>

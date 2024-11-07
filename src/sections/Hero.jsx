@@ -5,15 +5,15 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="bg-black min-h-screen lg:px-24 pt-24 pb-12 xs:px-4 xs:py-16"
+      className="max-w-full bg-black min-h-screen py-16 px-8 pb-16"
     >
-      <div className="flex flex-col lg:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8 max-w-screen-xl">
-        <div className="text-white mt-1 md:mb-20 mx-4 ">
+      <div className="flex flex-col lg:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8 max-w-screen-xl w-full">
+        <div className="text-white mt-1 md:mb-20">
           <SubHeading title="Chase the new flavour" />
           <h1 className="xs:text-4xl md:text-8xl font-base font-bold text-golden tracking-custom mb-8">
             The Key To Fine Dining
           </h1>
-          <p className="text-lg py-8">
+          <p className="md:text-lg xs:text-md py-8">
             Discover a culinary experience where every flavor delights your
             senses. Our chefs use fresh ingredients and innovative techniques to
             craft dishes that celebrate excellence. Explore new flavors and let
@@ -23,8 +23,12 @@ const Hero = () => {
             Explore Menu
           </button>
         </div>
-        <div className="flex justify-center mx-8">
-          <img src={images.welcome} alt="welcome" />
+        <div className="flex justify-center w-full">
+          <img
+            src={images.welcome}
+            alt="welcome"
+            className="w-full max-w-full"
+          />
         </div>
       </div>
     </section>

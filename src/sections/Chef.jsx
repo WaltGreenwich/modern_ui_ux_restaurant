@@ -15,18 +15,18 @@ const Chef = () => {
 
         <div className="w-full lg:w-1/2 text-white text-lg md:text-2xl space-y-4 xs:mt-16 mx-auto">
           <SubHeading title="Chef’s Word" isCentered={false} />
-          <h1 className="lg:text-5xl capitalize font-base font-bold text-golden tracking-custom xs:text-4xl mb-8">
+          <h1 className="lg:text-5xl capitalize font-base font-bold text-golden tracking-custom xs:text-3.5xl mb-8">
             What we believe in
           </h1>
 
           <div className="space-y-4 items-start">
-            <div className="relative my-16 max-w-xl leading-relaxed text-lg text-white">
+            <div className="relative my-16 max-w-xl leading-relaxed text-white">
               <img
                 src={images.quote}
                 alt="quote"
                 className="float-left w-10 h-10 mr-3 mt-1"
               />
-              <p>
+              <p className="text-md">
                 At Gericht, every dish tells a story. Led by our chef’s passion
                 for perfection, we combine fresh ingredients to honor tradition
                 and innovation. For us, cooking is an art that connects and

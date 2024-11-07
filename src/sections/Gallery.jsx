@@ -17,11 +17,10 @@ const galleryImages = [
 const Gallery = () => {
   const scrollRef = useRef(null);
 
-  // Función para controlar el desplazamiento en el carrusel
   const scroll = (direction) => {
     const { current } = scrollRef;
     if (current) {
-      const scrollAmount = 300; // Cantidad de desplazamiento en px
+      const scrollAmount = 300;
       if (direction === "left") {
         current.scrollBy({ left: -scrollAmount, behavior: "smooth" });
       } else {
@@ -31,12 +30,11 @@ const Gallery = () => {
   };
 
   return (
-    <section className="flex justify-center bg-black py-16 px-16">
+    <section className="flex justify-center bg-black pt-16 pb-24 md:px-16 xs:px-8 ">
       <div className="flex lg:flex-row xs:flex-col w-full">
-        {/* Sección izquierda con título y descripción */}
         <div className="text-white mb-16 lg:w-1/2 xs:w-full">
           <SubHeading title="Instagram" />
-          <h1 className="font-base text-golden text-5xl font-semibold tracking-custom mb-8">
+          <h1 className="font-base text-golden md:text-5xl xs:text-4xl font-semibold tracking-custom mb-8">
             Photo Gallery
           </h1>
           <p className="font-alt mb-8">
@@ -48,9 +46,7 @@ const Gallery = () => {
           </button>
         </div>
 
-        {/* Sección derecha con el carrusel */}
         <div className="relative flex items-center lg:w-1/2 xs:w-full">
-          {/* Carrusel de imágenes */}
           <div
             ref={scrollRef}
             className="flex overflow-x-scroll no-scrollbar space-x-4 scroll-smooth"
@@ -58,7 +54,7 @@ const Gallery = () => {
             {galleryImages.map((image, index) => (
               <div
                 key={`gallery_image-${index + 1}`}
-                className="relative min-w-[301px] h-[447px] transition-transform duration-300 hover:scale-105"
+                className="relative xs:min-w-[230px] md:min-w-[301px] md:h-[447px] xs:h-[320px] transition-transform duration-300 hover:scale-105"
               >
                 <img
                   src={image}
