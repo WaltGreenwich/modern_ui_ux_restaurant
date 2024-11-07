@@ -3,7 +3,7 @@ import SubHeading from "../components/SubHeading";
 
 const Chef = () => {
   return (
-    <section className="bg-[url('src/assets/bg.png')] bg-cover bg-fixed min-h-screen py-16 lg:px-16 xs:px-8 flex items-center justify-center">
+    <section className="bg-[url('assets/bg.png')] bg-cover bg-fixed min-h-screen py-16 lg:px-16 xs:px-8 flex items-center justify-center">
       <div className="flex flex-col lg:flex-row items-center md:space-x-8 max-w-5xl md:max-w-6xl lg:max-w-7xl mx-auto px-6 md:px-8">
         <div className="w-full lg:w-1/2 flex  justify-center xs:items-center md:justify-end mb-8 md:mb-8 xs:mx-8 lg:mr-24">
           <img

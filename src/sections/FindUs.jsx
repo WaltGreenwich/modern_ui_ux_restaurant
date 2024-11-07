@@ -5,7 +5,7 @@ const FindUs = () => {
   return (
     <section
       id="contact-us"
-      className="bg-[url('src/assets/bg.png')] bg-cover bg-fixed min-h-screen py-16 lg:px-16 xs:px-8 flex items-center justify-center"
+      className="bg-[url('assets/bg.png')] bg-cover bg-fixed min-h-screen py-16 lg:px-16 xs:px-8 flex items-center justify-center"
     >
       <div className="flex flex-col lg:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8 max-w-screen-xl">
         <div className="text-white mt-8 md:mb-20 mx-4 lg:w-1/2">

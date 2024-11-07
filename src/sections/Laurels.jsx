@@ -21,7 +21,7 @@ const Laurels = () => {
   return (
     <section
       id="awards"
-      className="bg-[url('src/assets/bg.png')] bg-cover bg-fixed min-h-screen py-16 lg:px-16 xs:px-8 flex items-center justify-center"
+      className="bg-[url('assets/bg.png')] bg-cover bg-fixed min-h-screen py-16 lg:px-16 xs:px-8 flex items-center justify-center"
     >
       <div className="flex lg:flex-row xs:flex-col max-w-7xl w-full px-6 justify-between items-center space-y-8 lg:space-y-0">
         <div className="flex flex-col items-center lg:items-start lg:w-1/2">

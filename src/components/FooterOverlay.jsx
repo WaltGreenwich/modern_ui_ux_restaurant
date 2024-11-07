@@ -5,7 +5,7 @@ const FooterOverlay = () => {
 
       <div
         className="h-[75%] bg-cover bg-center bg-fixed opacity-80"
-        style={{ backgroundImage: "url('src/assets/bg.png')" }}
+        style={{ backgroundImage: "url('assets/bg.png')" }}
       ></div>
     </div>
   );

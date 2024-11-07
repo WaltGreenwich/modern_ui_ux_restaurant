@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <section
       id="about-us"
-      className="bg-[url('src/assets/bg.png')] bg-cover bg-fixed min-h-screen relative flex items-center justify-center px-8 py-16 sm:px-16"
+      className="bg-[url('assets/bg.png')] bg-cover bg-fixed min-h-screen relative flex items-center justify-center px-8 py-16 sm:px-16"
     >
       <div className="absolute inset-0 flex items-center justify-center opacity-50 z-0">
         <img src={images.G} alt="g letter" className="w-[391px] h-[415px]" />

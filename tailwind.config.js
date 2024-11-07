@@ -37,6 +37,9 @@ export default {
       letterSpacing: {
         custom: "0.04rem",
       },
+      backgroundImage: {
+        "bg-image": "url(assets/bg.png)",
+      },
     },
   },
   plugins: [],
