@@ -1,6 +1,6 @@
 # React + Vite
 
-https://github.com/WaltGreenwich/modern_ui_ux_restaurant/blob/main/Gericht-Restaurant-L.png
+(https://github.com/WaltGreenwich/modern_ui_ux_restaurant/blob/main/Gericht-Restaurant-L.png)
 
 This project is a website for Gericht Restaurant built with React.js and Tailwind CSS, based on a Figma design. 
 The site is fully responsive, ensuring an excellent user experience on any device.
